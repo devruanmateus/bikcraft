@@ -13,7 +13,7 @@
 
 .header-menu {
   display: flex;
-  gap: 40px;
+  gap: 20px;
 }
 
 .header-menu a {
@@ -54,8 +54,13 @@
 }
 
 @media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .header-menu {
-    gap: 12px;
+    gap: 15px;
   }
 
   .header-menu a {
