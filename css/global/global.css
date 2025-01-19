@@ -10,6 +10,11 @@
     url("../../fonts/Roboto_Condensed-Medium.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Merriweather";
+  src: url("../../fonts/Merriweather-BlackItalic.ttf") format("truetype");
+}
+
 * {
   margin: 0px;
   padding: 0px;
